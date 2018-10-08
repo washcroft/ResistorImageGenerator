@@ -1,0 +1,57 @@
+# Ignore thumbnails created by Windows
+[Tt]humbs.db
+
+# Ignore files built by Visual Studio
+*.obj
+*.exe
+*.pdb
+*.user
+*.aps
+*.pch
+*.vspscc
+*_i.c
+*_p.c
+*.ncb
+*.suo
+*.tlb
+*.tlh
+*.bak
+*.cache
+*.ilk
+*.log
+*.lib
+*.sbr
+*.dbmdl
+obj/
+.vs/
+[Bb]in
+[Dd]ebug*/
+[Rr]elease*/
+[Tt]est[Rr]esult*
+
+# Ignore user level IDE preferences files
+_ReSharper*/
+*.DotSettings.user
+
+# Ignore files which may contain sensitive information
+*.p12
+*.pfx
+*.pvk
+*.snk
+*.config
+*.settings
+*.pubxml
+*.[Pp]ublish.xml
+*/[Pp]roperties/Settings.Designer.cs
+*/[Pp]roperties/Settings.setting
+
+# Never ignore files which will not contain sensitive information
+!packages.config
+
+# Ignore NuGet packages
+[Pp]ackages
+
+# Never ignore anything in refs
+!/refs/
+!/refs/*
+!/refs/**/*
